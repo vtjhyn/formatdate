@@ -1,0 +1,27 @@
+{
+  "name": "@vtjhyn/formatdate",
+  "version": "0.1.0",
+  "description": "Date formatting library",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsup"
+  },
+  "keywords": ["date", "time", "format-date", "formatter", "datetime", "library"],
+  "author": "vtjhyn",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vtjhyn/formatdate.git"
+  },
+  "bugs": {
+    "url": "https://github.com/vtjhyn/formatdate/issues"
+  },
+  "homepage": "https://github.com/vtjhyn/formatdate#readme",
+  "license": "MIT",
+  "devDependencies": {
+    "tsup": "^8.1.0",
+    "typescript": "^5.4.5"
+  }
+}
